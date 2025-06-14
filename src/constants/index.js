@@ -16,7 +16,8 @@ import {
   web,
 } from "../assets";
 
-import html1 from "/html.png";
+import css1 from "/css1.png";
+import html1 from "/html1.png";
 import st from "/st.png";
 import Experience from "/Experiences.png";
 import bootstrap from "/bootstrap.png";
@@ -66,7 +67,7 @@ const technologies = [
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: css1,
   },
   {
     name: "JavaScript",
