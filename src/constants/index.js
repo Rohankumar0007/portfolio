@@ -16,6 +16,7 @@ import {
   web,
 } from "../assets";
 
+import html1 from "/html.png";
 import st from "/st.png";
 import Experience from "/Experiences.png";
 import bootstrap from "/bootstrap.png";
@@ -61,7 +62,7 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: html1,
   },
   {
     name: "CSS 3",
