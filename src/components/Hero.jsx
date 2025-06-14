@@ -7,16 +7,16 @@ import herobg1 from "/herobg1.png";
 
 const Hero = () => {
   const roles = [
-    " Software Developer",
-    " Web Developer",
-    " Backend Developer",
-    " UI/UX Enthusiast",
-    " Frontend Developer",
-    " Passionate Learner",
-    " Problem Solver",
-    " Tech Enthusiast",
-    " Full Stack Developer",
-    " Programming Aficionado",
+    "Software Developer",
+    "Web Developer",
+    "Backend Developer",
+    "UI/UX Enthusiast",
+    "Frontend Developer",
+    "Passionate Learner",
+    "Problem Solver",
+    "Tech Enthusiast",
+    "Full Stack Developer",
+    "Programming Aficionado",
   ];
 
   const [currentRole, setCurrentRole] = React.useState(0);

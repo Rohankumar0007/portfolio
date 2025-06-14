@@ -1,13 +1,11 @@
-import React from "react";
-
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { BallCanvas } from "./canvas";
 
 const Tech = () => {
   return (
     <div>
-      <h2 className="text-center text-5xl font-bold mb-8">Skills</h2>
+      <h2 className="text-center text-5xl font-bold mb-8">My Skills</h2>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
