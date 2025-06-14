@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
 import React from "react";
+import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -11,8 +11,8 @@ const Hero = () => {
     "Web Developer",
     "Backend Developer",
     "UI/UX Enthusiast",
-    "Passionate Learner",
     "Frontend Developer",
+    "Passionate Learner",
     "Problem Solver",
     "Tech Enthusiast",
     "Full Stack Developer",
@@ -30,7 +30,7 @@ const Hero = () => {
 
   return (
     <section
-      className="rj w-full h-screen mx-auto"
+      className="relative w-full h-screen mx-auto"
       style={{
         backgroundImage: `url(${herobg1})`,
         backgroundSize: "cover",
