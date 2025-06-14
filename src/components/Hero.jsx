@@ -1,5 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -7,16 +7,16 @@ import herobg1 from "/herobg1.png";
 
 const Hero = () => {
   const roles = [
-    " Software Developer",
-    " Web Developer",
-    " Backend Developer",
-    " UI/UX Enthusiast",
-    " Frontend Developer",
-    " Passionate Learner",
-    " Problem Solver",
-    " Tech Enthusiast",
-    " Full Stack Developer",
-    " Programming Aficionado",
+    "Software Developer",
+    "Web Developer",
+    "Backend Developer",
+    "UI/UX Enthusiast",
+    "Passionate Learner",
+    "Frontend Developer",
+    "Problem Solver",
+    "Tech Enthusiast",
+    "Full Stack Developer",
+    "Programming Aficionado",
   ];
 
   const [currentRole, setCurrentRole] = React.useState(0);
@@ -30,7 +30,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative w-full h-screen mx-auto"
+      className="rj w-full h-screen mx-auto"
       style={{
         backgroundImage: `url(${herobg1})`,
         backgroundSize: "cover",
